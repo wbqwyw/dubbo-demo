@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: demo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://localhost:8848
+
+
+server:
+  port: 8808
+
+spring:
+  application:
+    name: demo-provider
